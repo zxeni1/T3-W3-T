@@ -30,10 +30,17 @@ dataArray.forEach((costume) => {
     // Add the value to html element 
     newCostumeEntry.innerText = costume;
 
-    
+    // Add a buttpm to each entry to remove
+    let removeButton = document.createElement("button");
+
+    // Add a placeholder value or name to the button
+    removeButton.innerText = `Remove ${costume}`;
 
     // Add the element to the container
     costumeContainerList.appendChild(newCostumeEntry);
+
+    // Remove button
+    costumeContainerList.appendChild(removeButton);
 });
 
 // Add the container to the HTML page
