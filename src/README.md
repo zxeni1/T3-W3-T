@@ -1,2 +1,10 @@
-# T3-W3-T
+# T3W3-Tuesday
 # JS DOM
+- Finding and reading elements
+- Creating and Deleting
+- Editing Elements
+
+# T3W3-Thursday
+- DOM Events
+- Forms
+- Netlify Deployment
